@@ -66,7 +66,7 @@ const Features = () => {
                     </nav>
                 </div>
                 <div className="col-lg-6 align-self-end text-center text-lg-end">
-                    <img className="img-fluid" src="img/hero-img.png" alt="" style="max-height: 300px;" />
+                    <img className="img-fluid" src="img/hero-img.png" alt="" style={{maxHeight: '300px' }}/>
                 </div>
             </div>
         </div>
@@ -124,7 +124,7 @@ const Features = () => {
                     </div>
                     <div className="row g-4 pt-3">
                         <div className="col-sm-6">
-                            <div className="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                            <div className="d-flex rounded p-3" style={{background: 'rgba(256, 256, 256, 0.1)'}}>
                                 <i className="fa fa-home fa-3x text-white"></i>
                                 <div className="ms-3">
                                     <h2 className="text-white mb-0" data-toggle="counter-up">9999</h2>
@@ -133,7 +133,7 @@ const Features = () => {
                             </div>
                         </div>
                         <div className="col-sm-6">
-                            <div className="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                            <div className="d-flex rounded p-3" style={{background: 'rgba(256, 256, 256, 0.1)'}}>
                                 <i className="fa fa-home fa-3x text-white"></i>
                                 <div className="ms-3">
                                     <h2 className="text-white mb-0" data-toggle="counter-up">9999</h2>
@@ -164,7 +164,7 @@ const Features = () => {
                     <h1 className="text-white mb-4">Let's subscribe the newsletter</h1>
                     <div className="position-relative w-100 mt-3 mb-2">
                         <input className="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text"
-                            placeholder="Enter Your Email" style="height: 48px;" />
+                            placeholder="Enter Your Email" style={{height: '48px'}} />
                         <button type="button" className="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
                                 className="fa fa-paper-plane text-primary fs-4"></i></button>
                     </div>

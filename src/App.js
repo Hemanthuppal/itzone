@@ -9,6 +9,10 @@ import Contact from './Contact';
 import Project from './Project';
 import Home from './Home';
 import Service from './Service';
+import Features from './Pages/Features';
+import FAQs from './Pages/FAQs';
+import OurTeam from './Pages/OurTeam';
+import Testimonial from './Pages/Testimonial';
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +24,10 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/project" element={<Project />} />
           <Route path="/service" element={<Service />} />
+          <Route path="/feature" element={<Features />} />
+          <Route path="/faq" element={<FAQs />} />
+          <Route path="/team" element={<OurTeam />} />
+           <Route path="/testimonial" element={<Testimonial />} />
         </Routes>
         <Footer />
       </div>
